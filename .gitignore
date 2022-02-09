@@ -1,6 +1,5 @@
 
 [Aa]rtifacts/
-[Bb]uild/
 [Ll]ibrary/
 [Oo]bj/
 [Tt]emp/
@@ -15,7 +14,6 @@
 .DS_Store
 *.aspx
 *.browser
-*.csproj
 *.exe
 *.ini
 *.map
@@ -24,7 +22,6 @@
 *.pyc
 *.resS
 *.sdf
-*.sln
 *.sublime-project
 *.sublime-workspace
 *.suo

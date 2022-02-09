@@ -35,7 +35,7 @@ SpriteAtlas:
       m_ForceMaximumCompressionQuality_BC6H_BC7: 0
     packingSettings:
       serializedVersion: 2
-      padding: 4
+      padding: 8
       blockOffset: 1
       allowAlphaSplitting: 0
       enableRotation: 0
@@ -43,10 +43,10 @@ SpriteAtlas:
     secondaryTextureSettings: {}
     variantMultiplier: 1
     packables:
-    - {fileID: 2800000, guid: 4aca23cd58d667545a12c6114f22370d, type: 3}
+    - {fileID: 2800000, guid: d3cca0ebb3c168c4a8ee08c09148ea8a, type: 3}
     - {fileID: 2800000, guid: 03d62bd369f03d34785247e179724574, type: 3}
     - {fileID: 2800000, guid: 46fc363c4e897a14ea3871f76c137a22, type: 3}
-    - {fileID: 2800000, guid: d3cca0ebb3c168c4a8ee08c09148ea8a, type: 3}
+    - {fileID: 2800000, guid: 4aca23cd58d667545a12c6114f22370d, type: 3}
     - {fileID: 2800000, guid: 344df4c078b4e1445aa94464ee071a1e, type: 3}
     - {fileID: 2800000, guid: f9ee9256e945f1b4f9512effa1c8a541, type: 3}
     - {fileID: 2800000, guid: 6faa8797c9e67fe45ac5ef2a72c4aa2b, type: 3}
