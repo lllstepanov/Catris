@@ -1,0 +1,77 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: MainSpriteAtlas
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings:
+    - serializedVersion: 3
+      m_BuildTarget: DefaultTexturePlatform
+      m_MaxTextureSize: 2048
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: 4
+      m_TextureCompression: 1
+      m_CompressionQuality: 50
+      m_CrunchedCompression: 0
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 0
+      m_AndroidETC2FallbackOverride: 0
+      m_ForceMaximumCompressionQuality_BC6H_BC7: 0
+    packingSettings:
+      serializedVersion: 2
+      padding: 8
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 0
+      enableTightPacking: 1
+    secondaryTextureSettings: {}
+    variantMultiplier: 1
+    packables:
+    - {fileID: 2800000, guid: a68d66b9d6d26c044b0c182f02b7d39e, type: 3}
+    - {fileID: 2800000, guid: d1bc36c53e57fe24b80a995c376f55a5, type: 3}
+    - {fileID: 2800000, guid: b938cd439bf41464e877fc31c50f5d85, type: 3}
+    - {fileID: 2800000, guid: 1c18fa6ba3773bd4a9aedea0afd12dc5, type: 3}
+    - {fileID: 2800000, guid: abf93bb46450d744a9bc66b0357322e8, type: 3}
+    - {fileID: 2800000, guid: 421c3497782cf5640bde4f6417187fec, type: 3}
+    - {fileID: 2800000, guid: 33e2b79339bfc274fbfc602d6a7b87b4, type: 3}
+    - {fileID: 2800000, guid: 6ad9e1bc7c21e034a9fcd378f723d979, type: 3}
+    - {fileID: 2800000, guid: a6dcde8bb6e95a94d9f8902b36bd9ce8, type: 3}
+    bindAsDefault: 1
+    isAtlasV2: 0
+    cachedData: {fileID: 0}
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: b938cd439bf41464e877fc31c50f5d85, type: 3}
+  - {fileID: 21300000, guid: 33e2b79339bfc274fbfc602d6a7b87b4, type: 3}
+  - {fileID: 21300000, guid: d1bc36c53e57fe24b80a995c376f55a5, type: 3}
+  - {fileID: 21300000, guid: a68d66b9d6d26c044b0c182f02b7d39e, type: 3}
+  - {fileID: 21300000, guid: 1c18fa6ba3773bd4a9aedea0afd12dc5, type: 3}
+  - {fileID: 21300000, guid: a6dcde8bb6e95a94d9f8902b36bd9ce8, type: 3}
+  - {fileID: 21300000, guid: 6ad9e1bc7c21e034a9fcd378f723d979, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - icon_512x512
+  - appulove_logo
+  - cat_eye_32x32
+  - cat_158x82
+  - Field_button
+  - Field
+  - Background
+  m_RenderDataMap: {}
+  m_Tag: MainSpriteAtlas
+  m_IsVariant: 0

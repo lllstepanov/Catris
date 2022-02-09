@@ -1,0 +1,93 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: UISpriteAtlas
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings:
+    - serializedVersion: 3
+      m_BuildTarget: DefaultTexturePlatform
+      m_MaxTextureSize: 1024
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: 4
+      m_TextureCompression: 1
+      m_CompressionQuality: 50
+      m_CrunchedCompression: 0
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 0
+      m_AndroidETC2FallbackOverride: 0
+      m_ForceMaximumCompressionQuality_BC6H_BC7: 0
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 0
+      enableTightPacking: 1
+    secondaryTextureSettings: {}
+    variantMultiplier: 1
+    packables:
+    - {fileID: 2800000, guid: 4aca23cd58d667545a12c6114f22370d, type: 3}
+    - {fileID: 2800000, guid: 03d62bd369f03d34785247e179724574, type: 3}
+    - {fileID: 2800000, guid: 46fc363c4e897a14ea3871f76c137a22, type: 3}
+    - {fileID: 2800000, guid: d3cca0ebb3c168c4a8ee08c09148ea8a, type: 3}
+    - {fileID: 2800000, guid: 344df4c078b4e1445aa94464ee071a1e, type: 3}
+    - {fileID: 2800000, guid: f9ee9256e945f1b4f9512effa1c8a541, type: 3}
+    - {fileID: 2800000, guid: 6faa8797c9e67fe45ac5ef2a72c4aa2b, type: 3}
+    - {fileID: 2800000, guid: b285c9bc413301841ac95d25753bb641, type: 3}
+    - {fileID: 2800000, guid: 2a722c6fd6c6b0b4d8c7724b967248e0, type: 3}
+    - {fileID: 2800000, guid: 38631e1c8bf56444babe4ca207c453e3, type: 3}
+    - {fileID: 2800000, guid: 1760379403605b845bf686cd977a8238, type: 3}
+    - {fileID: 2800000, guid: 6ec81765d47bdc14fb30422a6212cdd9, type: 3}
+    - {fileID: 2800000, guid: 23bfa6a41f35aa44595b1a777d3b18b9, type: 3}
+    bindAsDefault: 1
+    isAtlasV2: 0
+    cachedData: {fileID: 0}
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: 344df4c078b4e1445aa94464ee071a1e, type: 3}
+  - {fileID: 21300000, guid: 03d62bd369f03d34785247e179724574, type: 3}
+  - {fileID: 21300000, guid: 1760379403605b845bf686cd977a8238, type: 3}
+  - {fileID: 21300000, guid: 23bfa6a41f35aa44595b1a777d3b18b9, type: 3}
+  - {fileID: 21300000, guid: 6ec81765d47bdc14fb30422a6212cdd9, type: 3}
+  - {fileID: 21300000, guid: f9ee9256e945f1b4f9512effa1c8a541, type: 3}
+  - {fileID: 21300000, guid: 6faa8797c9e67fe45ac5ef2a72c4aa2b, type: 3}
+  - {fileID: 21300000, guid: d3cca0ebb3c168c4a8ee08c09148ea8a, type: 3}
+  - {fileID: 21300000, guid: 38631e1c8bf56444babe4ca207c453e3, type: 3}
+  - {fileID: 21300000, guid: 46fc363c4e897a14ea3871f76c137a22, type: 3}
+  - {fileID: 21300000, guid: b285c9bc413301841ac95d25753bb641, type: 3}
+  - {fileID: 21300000, guid: 4aca23cd58d667545a12c6114f22370d, type: 3}
+  - {fileID: 21300000, guid: 2a722c6fd6c6b0b4d8c7724b967248e0, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - pause_button_128x128
+  - catsholder_310x_120
+  - loading-bar
+  - bar-shadow
+  - bar
+  - score_icon_128x128
+  - win_panel_727x1077
+  - continue_button_256x256
+  - basket_210x219
+  - continue_button_128x128
+  - restart_icon_40x40
+  - best_score_icon_55x65
+  - button_480x123
+  m_RenderDataMap: {}
+  m_Tag: UISpriteAtlas
+  m_IsVariant: 0

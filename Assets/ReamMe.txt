@@ -1,0 +1,13 @@
+Hi!
+
+Thank you for your attention to this project. 
+
+Cartis is a great game from Appsulove company (https://www.appsyoulove.com/). 
+This project is a clone of the Cartis.
+Made for educational purposes.
+
+If you want to play the original version please use this link (https://apps.apple.com/US/app/id1481982479?mt=8).
+
+@Oleksii Stepanov
+https://www.linkedin.com/in/lllstepanov
+https://oleksiistepanov.tilda.ws/

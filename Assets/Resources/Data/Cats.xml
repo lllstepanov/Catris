@@ -1,0 +1,12 @@
+<cats>
+  <cat number="1"	    color ="#9AD1EF"/>
+  <cat number="2"	    color ="#63A9DD"/>
+  <cat number="3"	    color ="#6E73B6"/>
+  <cat number="4"	    color ="#6469B0"/>
+  <cat number="5"	    color ="#AA7DB8"/>
+  <cat number="6"	    color ="#8C55A3"/>
+  <cat number="7"	    color ="#E58E8A"/>
+  <cat number="8"	    color ="#EC5252"/>
+  <cat number="9"	    color ="#D23427"/>
+  <cat number="10"	  color ="#B22E25"/>
+</cats>
