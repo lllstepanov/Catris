@@ -6,6 +6,9 @@ Cartis is a great game from Appsulove company (https://www.appsyoulove.com/).
 This project is a clone of the Cartis.
 Made for educational purposes.
 
+///IMPORTANT NOTE///
+Please change platform to Android (BuildSettings/Platform/Android) and game resolution to vertical. For example, 1080x1920.
+
 If you want to play the original version please use this link (https://apps.apple.com/US/app/id1481982479?mt=8).
 
 @Oleksii Stepanov
