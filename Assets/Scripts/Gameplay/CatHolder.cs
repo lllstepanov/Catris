@@ -73,6 +73,22 @@ namespace Catris
 
         }
 
+        /// <summary>
+        /// Sets the information of the cat
+        /// </summary>
+        internal void SetUp(CatSO cat)
+        {
+            /// Assign cats number
+            number = cat.number;
+
+            /// Assign cats number into TextMesh
+            textMesh.text = number.ToString();
+
+            /// Set's the color of image
+            sprite.color = cat.color;
+
+        }
+
         private void Update()
         {
             ///Checks if there are no targets

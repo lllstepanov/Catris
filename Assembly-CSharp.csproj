@@ -8,8 +8,7 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <RootNamespace>
-    </RootNamespace>
+    <RootNamespace></RootNamespace>
     <ProjectGuid>{A2F91DD1-717C-57B1-B495-76524E4B3708}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
@@ -70,6 +69,7 @@
     <Compile Include="Assets\Scripts\Gameplay\CatColumn.cs" />
     <Compile Include="Assets\Scripts\Gameplay\CatField.cs" />
     <Compile Include="Assets\Scripts\Saves\ProfileManager.cs" />
+    <Compile Include="Assets\Scripts\ScriptableObject\CatSO.cs" />
     <Compile Include="Assets\Scripts\UI\CatViewerElement.cs" />
     <Compile Include="Assets\Scripts\Gameplay\CatSpawner.cs" />
     <Compile Include="Assets\Scripts\Gameplay\ComboCounter.cs" />

@@ -307,6 +307,17 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   catPrefab: {fileID: 283463847142948385, guid: 9ed6e759e1eacfe46a7961d6b75a1bcd, type: 3}
+  catsSO:
+  - {fileID: 11400000, guid: d8fcd99e649f5094fa1ff8a020c399d0, type: 2}
+  - {fileID: 11400000, guid: 3d93ae020b6174649a844e656aace722, type: 2}
+  - {fileID: 11400000, guid: 3ed0240ec96958b4ca641ae31a1180d8, type: 2}
+  - {fileID: 11400000, guid: 8ca0cef9fa875f641a00a26ca47ebb01, type: 2}
+  - {fileID: 11400000, guid: 09a8b61b975c3b045bd7a8c1e6736f8c, type: 2}
+  - {fileID: 11400000, guid: 735af2ec90ab4d842b648d3ba6047a2a, type: 2}
+  - {fileID: 11400000, guid: 23bd848fd25e0e449b47ec40409d3757, type: 2}
+  - {fileID: 11400000, guid: 359ede20fcb91664fa0f8e1ce7a65ed0, type: 2}
+  - {fileID: 11400000, guid: 9cf9c26474ff326468b063c62ef8d78d, type: 2}
+  - {fileID: 11400000, guid: 49d5d4cce9333ed43972ad5f3afa9efa, type: 2}
   cats: []
 --- !u!4 &167517501
 Transform:

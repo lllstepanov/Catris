@@ -8,11 +8,20 @@ namespace Catris
     /// </summary>
     internal class CatSpawner : Singleton<CatSpawner>
     {
+        [SerializeField]
+        private bool useScriptableObjects = false;
+
         /// <summary>
         /// Prefab for instantiation
         /// </summary>
         [SerializeField]
         private GameObject catPrefab;
+
+        /// <summary>
+        /// Collection of possible cats
+        /// </summary>
+        [SerializeField]
+        private List<CatSO> catsSO = new List<CatSO>();
 
         /// <summary>
         /// Collection of possible cats
@@ -57,6 +66,15 @@ namespace Catris
             return cats[index - 1];
         }
 
+        /// <summary>
+        /// Returns cat (scriptable object) class object by index in the collection
+        /// </summary>
+        internal CatSO GetCatSOByIndex(int index)
+        {
+            /// return cat objects in the collection 
+            return catsSO[index - 1];
+        }
+
 
         /// <summary>
         /// Creates a new CatHolder object
@@ -66,8 +84,17 @@ namespace Catris
             /// Creates a new cats object
             GameObject newCat = Instantiate(catPrefab);
 
-            /// Set up a new CatHolder object
-            SetUpCat(newCat);
+            /// Check which set up needs to use
+            if (useScriptableObjects)
+            {
+                /// Use scriptable objects
+                SetUpCatSO(newCat);
+            }
+            else 
+            {
+                /// Use Cat class
+                SetUpCat(newCat);
+            }
 
             /// Removes first number in the CatQueue
             CatQueue.Instance.RemoveItemFromQueue();
@@ -80,7 +107,7 @@ namespace Catris
         }
 
         /// <summary>
-        /// Assingn CatHolder 
+        /// SetUp CatHolder with Cat class 
         /// </summary>
         private void SetUpCat(GameObject newCat) 
         {
@@ -89,6 +116,21 @@ namespace Catris
             
             /// Assign Cat class from the collection of cats to the new variable by it's number
             Cat cat = GetCatByIndex(number);
+
+            /// Set new Cat class in the CatHolder object  
+            newCat.GetComponent<CatHolder>().SetUp(cat);
+        }
+
+        /// <summary>
+        /// SetUp CatHolder with CatSO class (ScriptableObject)
+        /// </summary>
+        private void SetUpCatSO(GameObject newCat)
+        {
+            /// Assign the first number from the Cats Queue to new variable 
+            byte number = CatQueue.Instance.GetFirstCatNumber();
+
+            /// Assign Cat class from the collection of cats to the new variable by it's number
+            CatSO cat = GetCatSOByIndex(number);
 
             /// Set new Cat class in the CatHolder object  
             newCat.GetComponent<CatHolder>().SetUp(cat);
